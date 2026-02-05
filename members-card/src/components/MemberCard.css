@@ -1,0 +1,38 @@
+.member-card {
+  background-color: #ffffff;
+  border-radius: 14px;
+  padding: 20px;
+  width: 280px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
+  transition: transform 0.3s ease;
+}
+
+.member-card:hover {
+  transform: translateY(-6px);
+}
+
+.member-photo {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 12px;
+}
+
+.member-content h3 {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.role {
+  display: block;
+  font-size: 0.85rem;
+  color: #6b7280;
+  margin: 4px 0 10px;
+}
+
+.bio {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: #4b5563;
+}
